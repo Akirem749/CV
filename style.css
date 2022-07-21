@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-content: center;
+}
+
+main{
+    position: relative;
+    display: inline-block;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.363);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 40px;
+}
+header p,
+header h4,
+header h1{
+    margin: 0;
+}
+
+header h1{
+    margin-bottom: 5px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+.contact-box{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.Abilities ul{
+   margin: 0;
+   list-style:circle ;
+   padding: 0%;
+   padding-left: 15px;
+}
+.Abilities li{
+    margin-bottom: 5px;
+}
+h2{
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.13);
+}
+p, li{
+    color: rgba(31, 31, 63, 0.959);
+}
+section{
+    margin-top: 40px;
+}
+section li{
+    list-style: circle;
+    margin-bottom: 5px;
+    
+}
+.skills li,
+.hobby li,
+.work li{
+    margin-left: 100px;
+}
+.school{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+.school h3,
+.school h5,
+.school p{
+    margin: 0;
+}
+.school p{
+    margin-top: 5px;
+}
+
+
+.nd{
+    margin-left: 20px;
+}
+
+footer{
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+    font-size: 8px;
+}
